@@ -7,6 +7,12 @@ extension InputRequiring where Self: UIViewController {
         self.init(nibName: nibName, bundle: bundle)
         self.input = input
     }
+    
+    public init(storyboardName: String? = nil,storyboardVcId: String? = nil, bundle: Bundle? = nil, input: InputType) {
+        let sb = UIStoryboard(name: storyboardName!, bundle: bundle)
+        self = sb.instantiateViewController(withIdentifier: Self.vcStoryboardReference!) as! Self
+        self.input = input
+    }
 }
 
 extension OutputProducing where Self: UIViewController {

@@ -7,19 +7,37 @@ import UIKit
 public protocol _AnyInputRequiring {
     static var _inputType: Any.Type { get }
     static func _create(input: Any) -> UIViewController
+    static var storyboardName: String? { get }
+    static var vcStoryboardReference: String? { get }
 }
 
 extension InputRequiring where Self: UIViewController  {
 
+    public static var storyboardName: String? {
+        return nil
+    }
+    
+    public static var vcStoryboardReference: String? {
+        return nil
+    }
+    
     public static var _inputType: Any.Type {
         return InputType.self
     }
 
     public static func _create(input: Any) -> UIViewController {
         if let typedInput = input as? InputType {
-            return self.init(input: typedInput)
+            if storyboardName != nil && vcStoryboardReference != nil {
+                return self.init(storyboardName: storyboardName, storyboardVcId: vcStoryboardReference, bundle: nil, input: typedInput)
+            } else {
+                 return self.init(input: typedInput)
+            }
         } else if let typedInput = (InputType.self as? OneOfNType.Type)?.create(from: input) as? InputType {
-            return self.init(input: typedInput)
+            if storyboardName != nil && vcStoryboardReference != nil {
+                return self.init(storyboardName: storyboardName, storyboardVcId: vcStoryboardReference, bundle: nil, input: typedInput)
+            } else {
+                 return self.init(input: typedInput)
+            }
         } else {
             fatalError("Trying to create `\(self)` with uncompatible `input` value: \(input).")
         }
