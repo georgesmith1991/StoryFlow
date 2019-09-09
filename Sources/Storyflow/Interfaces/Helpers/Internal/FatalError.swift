@@ -1,6 +1,6 @@
 import Foundation
 
-#if TESTING
+
 func fatalError(_ message: @autoclosure () -> String = "", file: StaticString = #file, line: UInt = #line) -> Never {
     FatalErrorUtil.fatalErrorClosure(message(), file, line)
 }
@@ -22,4 +22,4 @@ struct FatalErrorUtil {
         fatalErrorClosure = defaultFatalErrorClosure
     }
 }
-#endif
+
