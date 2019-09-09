@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D323F60C20B530B200C3E8E5 /* ImplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D323F60B20B530B200C3E8E5 /* ImplicitFlow+OneOf.swift */; };
+		CC19D3D6232693F200762667 /* InputRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3BE232693F200762667 /* InputRequiring.swift */; };
+		CC19D3D7232693F200762667 /* UpdateHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3BF232693F200762667 /* UpdateHandling.swift */; };
+		CC19D3D8232693F200762667 /* OuputProducing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C0232693F200762667 /* OuputProducing.swift */; };
+		CC19D3D9232693F200762667 /* OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C2232693F200762667 /* OneOf.swift */; };
+		CC19D3DA232693F200762667 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C4232693F200762667 /* AssociatedObject.swift */; };
+		CC19D3DB232693F200762667 /* MainTread.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C5232693F200762667 /* MainTread.swift */; };
+		CC19D3DC232693F200762667 /* FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C6232693F200762667 /* FatalError.swift */; };
+		CC19D3DD232693F200762667 /* BaseIntrefaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C7232693F200762667 /* BaseIntrefaces.swift */; };
+		CC19D3DE232693F200762667 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C8232693F200762667 /* Combinations.swift */; };
+		CC19D3DF232693F200762667 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C9232693F200762667 /* Testing.swift */; };
+		CC19D3E0232693F200762667 /* ExplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */; };
+		CC19D3E1232693F200762667 /* ExplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CD232693F200762667 /* ExplicitFlow.swift */; };
+		CC19D3E2232693F200762667 /* ImplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CF232693F200762667 /* ImplicitFlow.swift */; };
+		CC19D3E3232693F200762667 /* ImplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */; };
+		CC19D3E4232693F200762667 /* ImplicitFlow+OutputTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */; };
+		CC19D3E5232693F200762667 /* ImplicitFlow+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */; };
+		CC19D3E6232693F200762667 /* Unwinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D4232693F200762667 /* Unwinding.swift */; };
+		CC19D3E7232693F200762667 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D5232693F200762667 /* Transition.swift */; };
 		D353D047211C8C6D00EA5F07 /* StoryFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E094EA20AC3284007E5715 /* StoryFlow.framework */; };
-		D358B3AD20B49007009A9C90 /* ImplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358B3AC20B49007009A9C90 /* ImplicitFlow.swift */; };
-		D374ECDC20B4BD3E00481F05 /* OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374ECDB20B4BD3E00481F05 /* OneOf.swift */; };
-		D374ECDF20B4C0CE00481F05 /* ExplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374ECDE20B4C0CE00481F05 /* ExplicitFlow+OneOf.swift */; };
 		D381D0D420D4805100B6C416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D0D320D4805100B6C416 /* AppDelegate.swift */; };
 		D381D0F920D481EF00B6C416 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D0F220D480B200B6C416 /* Helpers.swift */; };
 		D381D0FA20D4820700B6C416 /* ExplicitFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D0F120D480B100B6C416 /* ExplicitFlowTests.swift */; };
 		D386BF6320D77BF9008ABCC4 /* FailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386BF6220D77BF9008ABCC4 /* FailureTests.swift */; };
-		D386BF6520D77FAF008ABCC4 /* FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386BF6420D77FAF008ABCC4 /* FatalError.swift */; };
-		D38F4F0B20BEDC450034E8B6 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F4F0A20BEDC450034E8B6 /* Transition.swift */; };
-		D38F4F0D20BEDCC50034E8B6 /* Unwinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F4F0C20BEDCC50034E8B6 /* Unwinding.swift */; };
-		D399726D216517DF00FA664E /* MainTread.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399726C216517DF00FA664E /* MainTread.swift */; };
-		D39DC65221BA8D7000E43FA9 /* ImplicitFlow+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39DC65121BA8D7000E43FA9 /* ImplicitFlow+CustomTransition.swift */; };
-		D3C4779B20AE12E2004B8460 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C4779A20AE12E2004B8460 /* Testing.swift */; };
-		D3C4779F20AE1ADD004B8460 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C4779E20AE1ADD004B8460 /* AssociatedObject.swift */; };
-		D3CF16DB2232C8AC0075DA8A /* ImplicitFlow+OutputTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF16DA2232C8AC0075DA8A /* ImplicitFlow+OutputTransform.swift */; };
 		D3D086D420D50A2800C283B4 /* ImplicitFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D086D320D50A2800C283B4 /* ImplicitFlowTests.swift */; };
 		D3D086D620D50F9C00C283B4 /* TestabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D086D520D50F9C00C283B4 /* TestabilityTests.swift */; };
-		D3E094FB20AC3284007E5715 /* StoryFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E094ED20AC3284007E5715 /* StoryFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3E0950D20AC329F007E5715 /* InputRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0950820AC329F007E5715 /* InputRequiring.swift */; };
-		D3E0950F20AC69C4007E5715 /* OuputProducing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0950E20AC69C4007E5715 /* OuputProducing.swift */; };
-		D3E0951120AC6A5F007E5715 /* UpdateHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0951020AC6A5F007E5715 /* UpdateHandling.swift */; };
-		D3E0951320AC6AAD007E5715 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0951220AC6AAD007E5715 /* Combinations.swift */; };
-		D3E0951620AC6B68007E5715 /* BaseIntrefaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0951520AC6B68007E5715 /* BaseIntrefaces.swift */; };
-		D3E0951820ACCC8E007E5715 /* ExplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0951720ACCC8E007E5715 /* ExplicitFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D323F60B20B530B200C3E8E5 /* ImplicitFlow+OneOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
-		D358B3AC20B49007009A9C90 /* ImplicitFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitFlow.swift; sourceTree = "<group>"; };
-		D374ECDB20B4BD3E00481F05 /* OneOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneOf.swift; sourceTree = "<group>"; };
-		D374ECDE20B4C0CE00481F05 /* ExplicitFlow+OneOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
+		CC19D3BE232693F200762667 /* InputRequiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRequiring.swift; sourceTree = "<group>"; };
+		CC19D3BF232693F200762667 /* UpdateHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHandling.swift; sourceTree = "<group>"; };
+		CC19D3C0232693F200762667 /* OuputProducing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuputProducing.swift; sourceTree = "<group>"; };
+		CC19D3C2232693F200762667 /* OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneOf.swift; sourceTree = "<group>"; };
+		CC19D3C4232693F200762667 /* AssociatedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
+		CC19D3C5232693F200762667 /* MainTread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTread.swift; sourceTree = "<group>"; };
+		CC19D3C6232693F200762667 /* FatalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalError.swift; sourceTree = "<group>"; };
+		CC19D3C7232693F200762667 /* BaseIntrefaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseIntrefaces.swift; sourceTree = "<group>"; };
+		CC19D3C8232693F200762667 /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		CC19D3C9232693F200762667 /* Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
+		CC19D3CD232693F200762667 /* ExplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitFlow.swift; sourceTree = "<group>"; };
+		CC19D3CF232693F200762667 /* ImplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFlow.swift; sourceTree = "<group>"; };
+		CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
+		CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OutputTransform.swift"; sourceTree = "<group>"; };
+		CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+CustomTransition.swift"; sourceTree = "<group>"; };
+		CC19D3D4232693F200762667 /* Unwinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwinding.swift; sourceTree = "<group>"; };
+		CC19D3D5232693F200762667 /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		D381D0D120D4805100B6C416 /* StoryFlowTestsContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryFlowTestsContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D381D0D320D4805100B6C416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D381D0DF20D4805200B6C416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,25 +71,9 @@
 		D381D0F120D480B100B6C416 /* ExplicitFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitFlowTests.swift; sourceTree = "<group>"; };
 		D381D0F220D480B200B6C416 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		D386BF6220D77BF9008ABCC4 /* FailureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureTests.swift; sourceTree = "<group>"; };
-		D386BF6420D77FAF008ABCC4 /* FatalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalError.swift; sourceTree = "<group>"; };
-		D38F4F0A20BEDC450034E8B6 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
-		D38F4F0C20BEDCC50034E8B6 /* Unwinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwinding.swift; sourceTree = "<group>"; };
-		D399726C216517DF00FA664E /* MainTread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTread.swift; sourceTree = "<group>"; };
-		D39DC65121BA8D7000E43FA9 /* ImplicitFlow+CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+CustomTransition.swift"; sourceTree = "<group>"; };
-		D3C4779A20AE12E2004B8460 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
-		D3C4779E20AE1ADD004B8460 /* AssociatedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
-		D3CF16DA2232C8AC0075DA8A /* ImplicitFlow+OutputTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OutputTransform.swift"; sourceTree = "<group>"; };
 		D3D086D320D50A2800C283B4 /* ImplicitFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitFlowTests.swift; sourceTree = "<group>"; };
 		D3D086D520D50F9C00C283B4 /* TestabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestabilityTests.swift; sourceTree = "<group>"; };
 		D3E094EA20AC3284007E5715 /* StoryFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StoryFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3E094ED20AC3284007E5715 /* StoryFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryFlow.h; sourceTree = "<group>"; };
-		D3E094EE20AC3284007E5715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3E0950820AC329F007E5715 /* InputRequiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRequiring.swift; sourceTree = "<group>"; };
-		D3E0950E20AC69C4007E5715 /* OuputProducing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuputProducing.swift; sourceTree = "<group>"; };
-		D3E0951020AC6A5F007E5715 /* UpdateHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateHandling.swift; sourceTree = "<group>"; };
-		D3E0951220AC6AAD007E5715 /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
-		D3E0951520AC6B68007E5715 /* BaseIntrefaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseIntrefaces.swift; sourceTree = "<group>"; };
-		D3E0951720ACCC8E007E5715 /* ExplicitFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,35 +102,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D323F60A20B5306E00C3E8E5 /* ImplicitFlow */ = {
+		CC19D3BB232693F200762667 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D358B3AC20B49007009A9C90 /* ImplicitFlow.swift */,
-				D323F60B20B530B200C3E8E5 /* ImplicitFlow+OneOf.swift */,
-				D39DC65121BA8D7000E43FA9 /* ImplicitFlow+CustomTransition.swift */,
-				D3CF16DA2232C8AC0075DA8A /* ImplicitFlow+OutputTransform.swift */,
+				CC19D3BC232693F200762667 /* Storyflow */,
 			);
-			path = ImplicitFlow;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		D374ECDA20B4BD1E00481F05 /* Internal */ = {
+		CC19D3BC232693F200762667 /* Storyflow */ = {
 			isa = PBXGroup;
 			children = (
-				D3E0951520AC6B68007E5715 /* BaseIntrefaces.swift */,
-				D3C4779E20AE1ADD004B8460 /* AssociatedObject.swift */,
-				D386BF6420D77FAF008ABCC4 /* FatalError.swift */,
-				D399726C216517DF00FA664E /* MainTread.swift */,
+				CC19D3BD232693F200762667 /* Interfaces */,
+				CC19D3CA232693F200762667 /* Flow */,
+			);
+			path = Storyflow;
+			sourceTree = "<group>";
+		};
+		CC19D3BD232693F200762667 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3BE232693F200762667 /* InputRequiring.swift */,
+				CC19D3BF232693F200762667 /* UpdateHandling.swift */,
+				CC19D3C0232693F200762667 /* OuputProducing.swift */,
+				CC19D3C1232693F200762667 /* Helpers */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		CC19D3C1232693F200762667 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3C2232693F200762667 /* OneOf.swift */,
+				CC19D3C3232693F200762667 /* Internal */,
+				CC19D3C8232693F200762667 /* Combinations.swift */,
+				CC19D3C9232693F200762667 /* Testing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CC19D3C3232693F200762667 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3C4232693F200762667 /* AssociatedObject.swift */,
+				CC19D3C5232693F200762667 /* MainTread.swift */,
+				CC19D3C6232693F200762667 /* FatalError.swift */,
+				CC19D3C7232693F200762667 /* BaseIntrefaces.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		D374ECDD20B4C0A300481F05 /* ExplicitFlow */ = {
+		CC19D3CA232693F200762667 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				D3E0951720ACCC8E007E5715 /* ExplicitFlow.swift */,
-				D374ECDE20B4C0CE00481F05 /* ExplicitFlow+OneOf.swift */,
+				CC19D3CB232693F200762667 /* ExplicitFlow */,
+				CC19D3CE232693F200762667 /* ImplicitFlow */,
+				CC19D3D3232693F200762667 /* Helpers */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		CC19D3CB232693F200762667 /* ExplicitFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */,
+				CC19D3CD232693F200762667 /* ExplicitFlow.swift */,
 			);
 			path = ExplicitFlow;
+			sourceTree = "<group>";
+		};
+		CC19D3CE232693F200762667 /* ImplicitFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3CF232693F200762667 /* ImplicitFlow.swift */,
+				CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */,
+				CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */,
+				CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */,
+			);
+			path = ImplicitFlow;
+			sourceTree = "<group>";
+		};
+		CC19D3D3232693F200762667 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC19D3D4232693F200762667 /* Unwinding.swift */,
+				CC19D3D5232693F200762667 /* Transition.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D381D0D220D4805100B6C416 /* ContainerApp */ = {
@@ -157,15 +212,6 @@
 				D381D0D220D4805100B6C416 /* ContainerApp */,
 			);
 			path = StoryFlowTests;
-			sourceTree = "<group>";
-		};
-		D38F4F0920BEDC3B0034E8B6 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D38F4F0A20BEDC450034E8B6 /* Transition.swift */,
-				D38F4F0C20BEDCC50034E8B6 /* Unwinding.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D3DE87A320D46A8D0078645E /* Frameworks */ = {
@@ -198,52 +244,9 @@
 		D3E094EC20AC3284007E5715 /* StoryFlow */ = {
 			isa = PBXGroup;
 			children = (
-				D3E0950420AC329F007E5715 /* Interfaces */,
-				D3E0950920AC329F007E5715 /* Flow */,
-				D3E094ED20AC3284007E5715 /* StoryFlow.h */,
-				D3E094EE20AC3284007E5715 /* Info.plist */,
+				CC19D3BB232693F200762667 /* Sources */,
 			);
 			path = StoryFlow;
-			sourceTree = "<group>";
-		};
-		D3E0950420AC329F007E5715 /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				D3E0950820AC329F007E5715 /* InputRequiring.swift */,
-				D3E0950E20AC69C4007E5715 /* OuputProducing.swift */,
-				D3E0951020AC6A5F007E5715 /* UpdateHandling.swift */,
-				D3E0951420AC6B57007E5715 /* Helpers */,
-			);
-			path = Interfaces;
-			sourceTree = "<group>";
-		};
-		D3E0950920AC329F007E5715 /* Flow */ = {
-			isa = PBXGroup;
-			children = (
-				D374ECDD20B4C0A300481F05 /* ExplicitFlow */,
-				D323F60A20B5306E00C3E8E5 /* ImplicitFlow */,
-				D3E0950B20AC329F007E5715 /* Storyboard */,
-				D38F4F0920BEDC3B0034E8B6 /* Helpers */,
-			);
-			path = Flow;
-			sourceTree = "<group>";
-		};
-		D3E0950B20AC329F007E5715 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		D3E0951420AC6B57007E5715 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D374ECDB20B4BD3E00481F05 /* OneOf.swift */,
-				D3E0951220AC6AAD007E5715 /* Combinations.swift */,
-				D3C4779A20AE12E2004B8460 /* Testing.swift */,
-				D374ECDA20B4BD1E00481F05 /* Internal */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +256,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E094FB20AC3284007E5715 /* StoryFlow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,24 +409,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D323F60C20B530B200C3E8E5 /* ImplicitFlow+OneOf.swift in Sources */,
-				D3E0951820ACCC8E007E5715 /* ExplicitFlow.swift in Sources */,
-				D374ECDC20B4BD3E00481F05 /* OneOf.swift in Sources */,
-				D39DC65221BA8D7000E43FA9 /* ImplicitFlow+CustomTransition.swift in Sources */,
-				D3C4779B20AE12E2004B8460 /* Testing.swift in Sources */,
-				D3E0951320AC6AAD007E5715 /* Combinations.swift in Sources */,
-				D374ECDF20B4C0CE00481F05 /* ExplicitFlow+OneOf.swift in Sources */,
-				D386BF6520D77FAF008ABCC4 /* FatalError.swift in Sources */,
-				D38F4F0B20BEDC450034E8B6 /* Transition.swift in Sources */,
-				D3E0951120AC6A5F007E5715 /* UpdateHandling.swift in Sources */,
-				D3E0950D20AC329F007E5715 /* InputRequiring.swift in Sources */,
-				D38F4F0D20BEDCC50034E8B6 /* Unwinding.swift in Sources */,
-				D3CF16DB2232C8AC0075DA8A /* ImplicitFlow+OutputTransform.swift in Sources */,
-				D3E0951620AC6B68007E5715 /* BaseIntrefaces.swift in Sources */,
-				D358B3AD20B49007009A9C90 /* ImplicitFlow.swift in Sources */,
-				D3C4779F20AE1ADD004B8460 /* AssociatedObject.swift in Sources */,
-				D3E0950F20AC69C4007E5715 /* OuputProducing.swift in Sources */,
-				D399726D216517DF00FA664E /* MainTread.swift in Sources */,
+				CC19D3E7232693F200762667 /* Transition.swift in Sources */,
+				CC19D3D6232693F200762667 /* InputRequiring.swift in Sources */,
+				CC19D3DA232693F200762667 /* AssociatedObject.swift in Sources */,
+				CC19D3E5232693F200762667 /* ImplicitFlow+CustomTransition.swift in Sources */,
+				CC19D3E2232693F200762667 /* ImplicitFlow.swift in Sources */,
+				CC19D3DF232693F200762667 /* Testing.swift in Sources */,
+				CC19D3D9232693F200762667 /* OneOf.swift in Sources */,
+				CC19D3E0232693F200762667 /* ExplicitFlow+OneOf.swift in Sources */,
+				CC19D3DB232693F200762667 /* MainTread.swift in Sources */,
+				CC19D3DC232693F200762667 /* FatalError.swift in Sources */,
+				CC19D3E6232693F200762667 /* Unwinding.swift in Sources */,
+				CC19D3E3232693F200762667 /* ImplicitFlow+OneOf.swift in Sources */,
+				CC19D3DE232693F200762667 /* Combinations.swift in Sources */,
+				CC19D3D8232693F200762667 /* OuputProducing.swift in Sources */,
+				CC19D3DD232693F200762667 /* BaseIntrefaces.swift in Sources */,
+				CC19D3D7232693F200762667 /* UpdateHandling.swift in Sources */,
+				CC19D3E1232693F200762667 /* ExplicitFlow.swift in Sources */,
+				CC19D3E4232693F200762667 /* ImplicitFlow+OutputTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,7 +646,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = StoryFlow/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -668,7 +670,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = StoryFlow/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -756,7 +758,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = StoryFlow/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
