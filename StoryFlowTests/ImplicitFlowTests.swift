@@ -586,4 +586,27 @@ class ImplicitFlowTests: XCTestCase {
         // Clean up
         OutputTransform.reset()
     }
+    
+    func testProduce_itShowsNextVcModalWithStyle() {
+
+        // Arrange
+        class T: StylishInput {
+            var modalPresentationStyle: UIModalPresentationStyle = .currentContext
+        }
+
+        class From: UIViewController, OutputProducing { typealias OutputType = T }
+        class To: UIViewController, InputRequiring { typealias InputType = T }
+
+        let from = From().visible()
+
+        let output = T()
+
+        // Act
+        from.produce(output)
+
+        // Assert
+        XCTAssert(currentVc is To)
+        XCTAssert(currentVc.modalPresentationStyle == output.modalPresentationStyle)
+        XCTAssert((currentVc as! To).input === output)
+    }
 }

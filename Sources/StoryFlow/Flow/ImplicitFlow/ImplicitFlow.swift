@@ -28,6 +28,11 @@ extension Flow {
             for inType in inputRequiringTypes where oneOf(inType._inputType, contains: type) {
                 let to = inType._create(input: value)
                 let transition = TransitionInfo(from: from, producedType: output.type, receivedType: type, to: to, isUnwind: false)
+                
+                if let styled = value as? StylishInput {
+                    to.modalPresentationStyle = styled.modalPresentationStyle
+                }
+                
                 if CustomTransition.attempt(transition) == false {
                     from.show(to, sender: nil)
                 }

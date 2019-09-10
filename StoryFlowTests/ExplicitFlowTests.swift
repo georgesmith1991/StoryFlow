@@ -229,4 +229,29 @@ class ExplicitFlowTests: XCTestCase {
         XCTAssert(currentVc == start)
         XCTAssert(start.update == 3.14)
     }
+    
+    func testProduce_itShowsNextVcModalWithStyle() {
+
+        // Arrange
+        class T: StylishInput {
+            var modalPresentationStyle: UIModalPresentationStyle = .currentContext
+        }
+        
+        CustomTransition.register(for: T.self, transition: .present(UIViewController.self))
+        
+        class From: UIViewController, OutputProducing { typealias OutputType = T }
+        class To: UIViewController, InputRequiring { typealias InputType = T }
+
+        let from = From().visible()
+
+        let output = T()
+
+        // Act
+        from.produce(output)
+
+        // Assert
+        XCTAssert(currentVc is To)
+        XCTAssert(currentVc.modalPresentationStyle == output.modalPresentationStyle)
+        XCTAssert((currentVc as! To).input === output)
+    }
 }
