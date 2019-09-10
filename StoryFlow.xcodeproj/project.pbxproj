@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC19D3D6232693F200762667 /* InputRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3BE232693F200762667 /* InputRequiring.swift */; };
-		CC19D3D7232693F200762667 /* UpdateHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3BF232693F200762667 /* UpdateHandling.swift */; };
-		CC19D3D8232693F200762667 /* OuputProducing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C0232693F200762667 /* OuputProducing.swift */; };
-		CC19D3D9232693F200762667 /* OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C2232693F200762667 /* OneOf.swift */; };
-		CC19D3DA232693F200762667 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C4232693F200762667 /* AssociatedObject.swift */; };
-		CC19D3DB232693F200762667 /* MainTread.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C5232693F200762667 /* MainTread.swift */; };
-		CC19D3DC232693F200762667 /* FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C6232693F200762667 /* FatalError.swift */; };
-		CC19D3DD232693F200762667 /* BaseIntrefaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C7232693F200762667 /* BaseIntrefaces.swift */; };
-		CC19D3DE232693F200762667 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C8232693F200762667 /* Combinations.swift */; };
-		CC19D3DF232693F200762667 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3C9232693F200762667 /* Testing.swift */; };
-		CC19D3E0232693F200762667 /* ExplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */; };
-		CC19D3E1232693F200762667 /* ExplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CD232693F200762667 /* ExplicitFlow.swift */; };
-		CC19D3E2232693F200762667 /* ImplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3CF232693F200762667 /* ImplicitFlow.swift */; };
-		CC19D3E3232693F200762667 /* ImplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */; };
-		CC19D3E4232693F200762667 /* ImplicitFlow+OutputTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */; };
-		CC19D3E5232693F200762667 /* ImplicitFlow+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */; };
-		CC19D3E6232693F200762667 /* Unwinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D4232693F200762667 /* Unwinding.swift */; };
-		CC19D3E7232693F200762667 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19D3D5232693F200762667 /* Transition.swift */; };
+		CC461A0F2327D80900E08A1E /* InputRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619F72327D80900E08A1E /* InputRequiring.swift */; };
+		CC461A102327D80900E08A1E /* UpdateHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619F82327D80900E08A1E /* UpdateHandling.swift */; };
+		CC461A112327D80900E08A1E /* OuputProducing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619F92327D80900E08A1E /* OuputProducing.swift */; };
+		CC461A122327D80900E08A1E /* OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619FB2327D80900E08A1E /* OneOf.swift */; };
+		CC461A132327D80900E08A1E /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619FD2327D80900E08A1E /* AssociatedObject.swift */; };
+		CC461A142327D80900E08A1E /* MainTread.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619FE2327D80900E08A1E /* MainTread.swift */; };
+		CC461A152327D80900E08A1E /* FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4619FF2327D80900E08A1E /* FatalError.swift */; };
+		CC461A162327D80900E08A1E /* BaseIntrefaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A002327D80900E08A1E /* BaseIntrefaces.swift */; };
+		CC461A172327D80900E08A1E /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A012327D80900E08A1E /* Combinations.swift */; };
+		CC461A182327D80900E08A1E /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A022327D80900E08A1E /* Testing.swift */; };
+		CC461A192327D80900E08A1E /* ExplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A052327D80900E08A1E /* ExplicitFlow+OneOf.swift */; };
+		CC461A1A2327D80900E08A1E /* ExplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A062327D80900E08A1E /* ExplicitFlow.swift */; };
+		CC461A1B2327D80900E08A1E /* ImplicitFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A082327D80900E08A1E /* ImplicitFlow.swift */; };
+		CC461A1C2327D80900E08A1E /* ImplicitFlow+OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A092327D80900E08A1E /* ImplicitFlow+OneOf.swift */; };
+		CC461A1D2327D80900E08A1E /* ImplicitFlow+OutputTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A0A2327D80900E08A1E /* ImplicitFlow+OutputTransform.swift */; };
+		CC461A1E2327D80900E08A1E /* ImplicitFlow+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A0B2327D80900E08A1E /* ImplicitFlow+CustomTransition.swift */; };
+		CC461A1F2327D80900E08A1E /* Unwinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A0D2327D80900E08A1E /* Unwinding.swift */; };
+		CC461A202327D80900E08A1E /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A0E2327D80900E08A1E /* Transition.swift */; };
+		CC461A222327D9B800E08A1E /* StylishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC461A212327D9B800E08A1E /* StylishInput.swift */; };
 		D353D047211C8C6D00EA5F07 /* StoryFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E094EA20AC3284007E5715 /* StoryFlow.framework */; };
 		D381D0D420D4805100B6C416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D0D320D4805100B6C416 /* AppDelegate.swift */; };
 		D381D0F920D481EF00B6C416 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D0F220D480B200B6C416 /* Helpers.swift */; };
@@ -45,24 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC19D3BE232693F200762667 /* InputRequiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRequiring.swift; sourceTree = "<group>"; };
-		CC19D3BF232693F200762667 /* UpdateHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHandling.swift; sourceTree = "<group>"; };
-		CC19D3C0232693F200762667 /* OuputProducing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuputProducing.swift; sourceTree = "<group>"; };
-		CC19D3C2232693F200762667 /* OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneOf.swift; sourceTree = "<group>"; };
-		CC19D3C4232693F200762667 /* AssociatedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
-		CC19D3C5232693F200762667 /* MainTread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTread.swift; sourceTree = "<group>"; };
-		CC19D3C6232693F200762667 /* FatalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalError.swift; sourceTree = "<group>"; };
-		CC19D3C7232693F200762667 /* BaseIntrefaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseIntrefaces.swift; sourceTree = "<group>"; };
-		CC19D3C8232693F200762667 /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
-		CC19D3C9232693F200762667 /* Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
-		CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
-		CC19D3CD232693F200762667 /* ExplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitFlow.swift; sourceTree = "<group>"; };
-		CC19D3CF232693F200762667 /* ImplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFlow.swift; sourceTree = "<group>"; };
-		CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
-		CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OutputTransform.swift"; sourceTree = "<group>"; };
-		CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+CustomTransition.swift"; sourceTree = "<group>"; };
-		CC19D3D4232693F200762667 /* Unwinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwinding.swift; sourceTree = "<group>"; };
-		CC19D3D5232693F200762667 /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		CC4619F72327D80900E08A1E /* InputRequiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputRequiring.swift; sourceTree = "<group>"; };
+		CC4619F82327D80900E08A1E /* UpdateHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateHandling.swift; sourceTree = "<group>"; };
+		CC4619F92327D80900E08A1E /* OuputProducing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OuputProducing.swift; sourceTree = "<group>"; };
+		CC4619FB2327D80900E08A1E /* OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneOf.swift; sourceTree = "<group>"; };
+		CC4619FD2327D80900E08A1E /* AssociatedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
+		CC4619FE2327D80900E08A1E /* MainTread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTread.swift; sourceTree = "<group>"; };
+		CC4619FF2327D80900E08A1E /* FatalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatalError.swift; sourceTree = "<group>"; };
+		CC461A002327D80900E08A1E /* BaseIntrefaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseIntrefaces.swift; sourceTree = "<group>"; };
+		CC461A012327D80900E08A1E /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		CC461A022327D80900E08A1E /* Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		CC461A052327D80900E08A1E /* ExplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
+		CC461A062327D80900E08A1E /* ExplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitFlow.swift; sourceTree = "<group>"; };
+		CC461A082327D80900E08A1E /* ImplicitFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitFlow.swift; sourceTree = "<group>"; };
+		CC461A092327D80900E08A1E /* ImplicitFlow+OneOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OneOf.swift"; sourceTree = "<group>"; };
+		CC461A0A2327D80900E08A1E /* ImplicitFlow+OutputTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+OutputTransform.swift"; sourceTree = "<group>"; };
+		CC461A0B2327D80900E08A1E /* ImplicitFlow+CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImplicitFlow+CustomTransition.swift"; sourceTree = "<group>"; };
+		CC461A0D2327D80900E08A1E /* Unwinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwinding.swift; sourceTree = "<group>"; };
+		CC461A0E2327D80900E08A1E /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		CC461A212327D9B800E08A1E /* StylishInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishInput.swift; sourceTree = "<group>"; };
 		D381D0D120D4805100B6C416 /* StoryFlowTestsContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryFlowTestsContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D381D0D320D4805100B6C416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D381D0DF20D4805200B6C416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,91 +104,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC19D3BB232693F200762667 /* Sources */ = {
+		CC4619F52327D80900E08A1E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3BC232693F200762667 /* Storyflow */,
+				CC4619F62327D80900E08A1E /* Interfaces */,
+				CC461A032327D80900E08A1E /* Flow */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		CC19D3BC232693F200762667 /* Storyflow */ = {
+		CC4619F62327D80900E08A1E /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3BD232693F200762667 /* Interfaces */,
-				CC19D3CA232693F200762667 /* Flow */,
-			);
-			path = Storyflow;
-			sourceTree = "<group>";
-		};
-		CC19D3BD232693F200762667 /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				CC19D3BE232693F200762667 /* InputRequiring.swift */,
-				CC19D3BF232693F200762667 /* UpdateHandling.swift */,
-				CC19D3C0232693F200762667 /* OuputProducing.swift */,
-				CC19D3C1232693F200762667 /* Helpers */,
+				CC4619F72327D80900E08A1E /* InputRequiring.swift */,
+				CC4619F82327D80900E08A1E /* UpdateHandling.swift */,
+				CC4619F92327D80900E08A1E /* OuputProducing.swift */,
+				CC4619FA2327D80900E08A1E /* Helpers */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
 		};
-		CC19D3C1232693F200762667 /* Helpers */ = {
+		CC4619FA2327D80900E08A1E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3C2232693F200762667 /* OneOf.swift */,
-				CC19D3C3232693F200762667 /* Internal */,
-				CC19D3C8232693F200762667 /* Combinations.swift */,
-				CC19D3C9232693F200762667 /* Testing.swift */,
+				CC4619FB2327D80900E08A1E /* OneOf.swift */,
+				CC4619FC2327D80900E08A1E /* Internal */,
+				CC461A012327D80900E08A1E /* Combinations.swift */,
+				CC461A022327D80900E08A1E /* Testing.swift */,
+				CC461A212327D9B800E08A1E /* StylishInput.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		CC19D3C3232693F200762667 /* Internal */ = {
+		CC4619FC2327D80900E08A1E /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3C4232693F200762667 /* AssociatedObject.swift */,
-				CC19D3C5232693F200762667 /* MainTread.swift */,
-				CC19D3C6232693F200762667 /* FatalError.swift */,
-				CC19D3C7232693F200762667 /* BaseIntrefaces.swift */,
+				CC4619FD2327D80900E08A1E /* AssociatedObject.swift */,
+				CC4619FE2327D80900E08A1E /* MainTread.swift */,
+				CC4619FF2327D80900E08A1E /* FatalError.swift */,
+				CC461A002327D80900E08A1E /* BaseIntrefaces.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		CC19D3CA232693F200762667 /* Flow */ = {
+		CC461A032327D80900E08A1E /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3CB232693F200762667 /* ExplicitFlow */,
-				CC19D3CE232693F200762667 /* ImplicitFlow */,
-				CC19D3D3232693F200762667 /* Helpers */,
+				CC461A042327D80900E08A1E /* ExplicitFlow */,
+				CC461A072327D80900E08A1E /* ImplicitFlow */,
+				CC461A0C2327D80900E08A1E /* Helpers */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
 		};
-		CC19D3CB232693F200762667 /* ExplicitFlow */ = {
+		CC461A042327D80900E08A1E /* ExplicitFlow */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3CC232693F200762667 /* ExplicitFlow+OneOf.swift */,
-				CC19D3CD232693F200762667 /* ExplicitFlow.swift */,
+				CC461A052327D80900E08A1E /* ExplicitFlow+OneOf.swift */,
+				CC461A062327D80900E08A1E /* ExplicitFlow.swift */,
 			);
 			path = ExplicitFlow;
 			sourceTree = "<group>";
 		};
-		CC19D3CE232693F200762667 /* ImplicitFlow */ = {
+		CC461A072327D80900E08A1E /* ImplicitFlow */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3CF232693F200762667 /* ImplicitFlow.swift */,
-				CC19D3D0232693F200762667 /* ImplicitFlow+OneOf.swift */,
-				CC19D3D1232693F200762667 /* ImplicitFlow+OutputTransform.swift */,
-				CC19D3D2232693F200762667 /* ImplicitFlow+CustomTransition.swift */,
+				CC461A082327D80900E08A1E /* ImplicitFlow.swift */,
+				CC461A092327D80900E08A1E /* ImplicitFlow+OneOf.swift */,
+				CC461A0A2327D80900E08A1E /* ImplicitFlow+OutputTransform.swift */,
+				CC461A0B2327D80900E08A1E /* ImplicitFlow+CustomTransition.swift */,
 			);
 			path = ImplicitFlow;
 			sourceTree = "<group>";
 		};
-		CC19D3D3232693F200762667 /* Helpers */ = {
+		CC461A0C2327D80900E08A1E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3D4232693F200762667 /* Unwinding.swift */,
-				CC19D3D5232693F200762667 /* Transition.swift */,
+				CC461A0D2327D80900E08A1E /* Unwinding.swift */,
+				CC461A0E2327D80900E08A1E /* Transition.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -244,7 +239,7 @@
 		D3E094EC20AC3284007E5715 /* StoryFlow */ = {
 			isa = PBXGroup;
 			children = (
-				CC19D3BB232693F200762667 /* Sources */,
+				CC4619F52327D80900E08A1E /* Sources */,
 			);
 			path = StoryFlow;
 			sourceTree = "<group>";
@@ -409,24 +404,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC19D3E7232693F200762667 /* Transition.swift in Sources */,
-				CC19D3D6232693F200762667 /* InputRequiring.swift in Sources */,
-				CC19D3DA232693F200762667 /* AssociatedObject.swift in Sources */,
-				CC19D3E5232693F200762667 /* ImplicitFlow+CustomTransition.swift in Sources */,
-				CC19D3E2232693F200762667 /* ImplicitFlow.swift in Sources */,
-				CC19D3DF232693F200762667 /* Testing.swift in Sources */,
-				CC19D3D9232693F200762667 /* OneOf.swift in Sources */,
-				CC19D3E0232693F200762667 /* ExplicitFlow+OneOf.swift in Sources */,
-				CC19D3DB232693F200762667 /* MainTread.swift in Sources */,
-				CC19D3DC232693F200762667 /* FatalError.swift in Sources */,
-				CC19D3E6232693F200762667 /* Unwinding.swift in Sources */,
-				CC19D3E3232693F200762667 /* ImplicitFlow+OneOf.swift in Sources */,
-				CC19D3DE232693F200762667 /* Combinations.swift in Sources */,
-				CC19D3D8232693F200762667 /* OuputProducing.swift in Sources */,
-				CC19D3DD232693F200762667 /* BaseIntrefaces.swift in Sources */,
-				CC19D3D7232693F200762667 /* UpdateHandling.swift in Sources */,
-				CC19D3E1232693F200762667 /* ExplicitFlow.swift in Sources */,
-				CC19D3E4232693F200762667 /* ImplicitFlow+OutputTransform.swift in Sources */,
+				CC461A222327D9B800E08A1E /* StylishInput.swift in Sources */,
+				CC461A202327D80900E08A1E /* Transition.swift in Sources */,
+				CC461A0F2327D80900E08A1E /* InputRequiring.swift in Sources */,
+				CC461A132327D80900E08A1E /* AssociatedObject.swift in Sources */,
+				CC461A1E2327D80900E08A1E /* ImplicitFlow+CustomTransition.swift in Sources */,
+				CC461A1B2327D80900E08A1E /* ImplicitFlow.swift in Sources */,
+				CC461A182327D80900E08A1E /* Testing.swift in Sources */,
+				CC461A122327D80900E08A1E /* OneOf.swift in Sources */,
+				CC461A192327D80900E08A1E /* ExplicitFlow+OneOf.swift in Sources */,
+				CC461A142327D80900E08A1E /* MainTread.swift in Sources */,
+				CC461A152327D80900E08A1E /* FatalError.swift in Sources */,
+				CC461A1F2327D80900E08A1E /* Unwinding.swift in Sources */,
+				CC461A1C2327D80900E08A1E /* ImplicitFlow+OneOf.swift in Sources */,
+				CC461A172327D80900E08A1E /* Combinations.swift in Sources */,
+				CC461A112327D80900E08A1E /* OuputProducing.swift in Sources */,
+				CC461A162327D80900E08A1E /* BaseIntrefaces.swift in Sources */,
+				CC461A102327D80900E08A1E /* UpdateHandling.swift in Sources */,
+				CC461A1A2327D80900E08A1E /* ExplicitFlow.swift in Sources */,
+				CC461A1D2327D80900E08A1E /* ImplicitFlow+OutputTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

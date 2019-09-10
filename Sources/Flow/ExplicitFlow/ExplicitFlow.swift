@@ -17,6 +17,9 @@ extension Flow {
             go = { from, value in
                 let to = C.init()
                 to.input = value
+                if let styled = value as? StylishInput {
+                    to.modalPresentationStyle = styled.modalPresentationStyle
+                }
                 transition.go(from, to)
             }
     }
@@ -26,10 +29,14 @@ extension Flow {
             go = { from, value in
                 let to = C.init()
                 to.input = value
+                if let styled = value as? StylishInput {
+                    to.modalPresentationStyle = styled.modalPresentationStyle
+                }
                 to.flow = flow
                 transition.go(from, to)
             }
     }
+    
 
     // MARK: Show
 
